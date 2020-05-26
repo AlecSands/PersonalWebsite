@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ReactAndJest/static/css/main.82ad88df.chunk.css",
-    "main.js": "/ReactAndJest/static/js/main.17cd1228.chunk.js",
-    "main.js.map": "/ReactAndJest/static/js/main.17cd1228.chunk.js.map",
-    "runtime-main.js": "/ReactAndJest/static/js/runtime-main.964ea91b.js",
-    "runtime-main.js.map": "/ReactAndJest/static/js/runtime-main.964ea91b.js.map",
-    "static/js/2.efe58d71.chunk.js": "/ReactAndJest/static/js/2.efe58d71.chunk.js",
-    "static/js/2.efe58d71.chunk.js.map": "/ReactAndJest/static/js/2.efe58d71.chunk.js.map",
-    "index.html": "/ReactAndJest/index.html",
-    "precache-manifest.d22363cf4d5a78bf4ade91c1a86089e2.js": "/ReactAndJest/precache-manifest.d22363cf4d5a78bf4ade91c1a86089e2.js",
-    "service-worker.js": "/ReactAndJest/service-worker.js",
-    "static/css/main.82ad88df.chunk.css.map": "/ReactAndJest/static/css/main.82ad88df.chunk.css.map",
-    "static/js/2.efe58d71.chunk.js.LICENSE.txt": "/ReactAndJest/static/js/2.efe58d71.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ReactAndJest/static/media/logo.5d5d9eef.svg"
+    "main.css": "/alecvsands.com/static/css/main.82ad88df.chunk.css",
+    "main.js": "/alecvsands.com/static/js/main.811b19b5.chunk.js",
+    "main.js.map": "/alecvsands.com/static/js/main.811b19b5.chunk.js.map",
+    "runtime-main.js": "/alecvsands.com/static/js/runtime-main.ce8b7bd8.js",
+    "runtime-main.js.map": "/alecvsands.com/static/js/runtime-main.ce8b7bd8.js.map",
+    "static/js/2.efe58d71.chunk.js": "/alecvsands.com/static/js/2.efe58d71.chunk.js",
+    "static/js/2.efe58d71.chunk.js.map": "/alecvsands.com/static/js/2.efe58d71.chunk.js.map",
+    "index.html": "/alecvsands.com/index.html",
+    "precache-manifest.344f40a558c73b8c0d6355629357cf8d.js": "/alecvsands.com/precache-manifest.344f40a558c73b8c0d6355629357cf8d.js",
+    "service-worker.js": "/alecvsands.com/service-worker.js",
+    "static/css/main.82ad88df.chunk.css.map": "/alecvsands.com/static/css/main.82ad88df.chunk.css.map",
+    "static/js/2.efe58d71.chunk.js.LICENSE.txt": "/alecvsands.com/static/js/2.efe58d71.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/alecvsands.com/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.964ea91b.js",
+    "static/js/runtime-main.ce8b7bd8.js",
     "static/js/2.efe58d71.chunk.js",
     "static/css/main.82ad88df.chunk.css",
-    "static/js/main.17cd1228.chunk.js"
+    "static/js/main.811b19b5.chunk.js"
   ]
 }

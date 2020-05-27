@@ -1,1 +1,10 @@
-$primary-color: #a69888;
+$light-shades: #F2F2F3;
+$light-accents: #8D9477;
+$main-brand-color: #2DE0B3;
+$dark-accents: #6D645C;
+$dark-shades: #2B2B3C;
+$main-font: 'Roboto', sans-serif;
+
+html {
+  background: $dark-shades;
+}

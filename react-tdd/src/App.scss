@@ -15,19 +15,43 @@
   }
 }
 
+.App-h1 {
+  color: $light-shades;
+  font-family: $main-font;
+  font-weight: 300;
+}
+
+.App-menu-icon {
+  color: $light-accents;
+  font-size: 36px;
+  background: -webkit-linear-gradient($light-accents, $light-shades);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 15px
+}
+
+.App-menu-outline {
+  border: solid 2px $dark-shades;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 50px;
+  filter: drop-shadow(0 0 20px $dark-shades);
+  background-color: $dark-shades;
+}
+
 .App-header {
-  background-color: $primary-color;
+  background-color: $dark-shades;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $light-shades;
 }
 
 .App-link {
-  color: #61dafb;
+  color: $main-brand-color;
 }
 
 @keyframes App-logo-spin {

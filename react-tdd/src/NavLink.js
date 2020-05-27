@@ -3,10 +3,11 @@ import React from 'react';
 import {
   Link
 } from "react-router-dom";
+import "./NavLink.scss"
 
 function NavLink(props) {
   return (
-    <li>
+    <li className="NavLink">
       <a href={props.name.url}>{props.name.displayName}</a>
     </li>
   );

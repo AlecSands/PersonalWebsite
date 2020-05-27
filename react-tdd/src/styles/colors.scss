@@ -1,10 +1,8 @@
 $light-shades: #F2F2F3;
 $light-accents: #8D9477;
+$light-shades-trans: rgba(242, 242, 243, .2);
 $main-brand-color: #2DE0B3;
 $dark-accents: #6D645C;
 $dark-shades: #2B2B3C;
 $main-font: 'Roboto', sans-serif;
-
-html {
-  background: $light-shades;
-}
+$standard-transition-duration: .8s;

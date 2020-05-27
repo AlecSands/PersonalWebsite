@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import NavLink from "./NavLink"
 import ContactLinks from "./ContactLinks"
+import "./Header.scss"
 
 function Header() {
   const navLinks = ContactLinks;
@@ -12,10 +13,10 @@ function Header() {
     <NavLink name={navLinks} />
   );
   return (
-    <nav>
-      <ol>
+    <nav className="Nav">
+      <ul>
         {listItems}
-      </ol>
+      </ul>
     </nav>
   );
 }

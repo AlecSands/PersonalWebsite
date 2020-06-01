@@ -1,29 +1,37 @@
 @import 'styles/colors.scss';
 
-.NavLink {
-  // background-color: $light-shades-trans;
-  display: inline-block;
-  padding: 20px 0px;
-  margin: 10px 0px;
-}
-
-.NavLink a {
-  transition-duration: $standard-transition-duration;
-  padding: 20px;
-  background-color: $main-brand-color;
-  color: $light-shades;
-  font-weight: 500;
-  font-size: 18px;
-  margin: 10px;
-  border-radius: 3px;
-
-  // box-shadow: $dark-shadow;
-}
-
-.NavLink a:hover {
-  transition-duration: $standard-transition-duration;
-  background-color: $light-shades-trans;
-  color: $light-shades;
-  cursor: pointer;
-  // box-shadow: $light-shadow;
-}
+// .NavLink {
+//   // background-color: $light-shades-trans;
+//   display: inline-block;
+//   padding: 20px 0px;
+//   margin: 10px 0px;
+// }
+//
+// .NavLink a {
+//   transition-duration: $standard-transition-duration;
+//   background-color: $main-brand-color;
+//   color: $light-shades;
+//   font-weight: 500;
+//   font-size: 16px;
+//   border-radius: 3px;
+//
+//   // box-shadow: $dark-shadow;
+// }
+//
+// .NavRight a {
+//   margin-top: 30px;
+//   margin-left: 60px;
+// }
+//
+// .NavLeft a {
+//   margin-top: 30px;
+//   margin-right: 60px;
+// }
+//
+// .NavLink a:hover {
+//   transition-duration: $standard-transition-duration;
+//   background-color: $light-shades-trans;
+//   color: $light-shades;
+//   cursor: pointer;
+//   // box-shadow: $light-shadow;
+// }

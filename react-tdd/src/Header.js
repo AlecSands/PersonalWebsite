@@ -17,18 +17,23 @@ function Header() {
   const contactItems = contactLinks.map((contactLinks) =>
     <NavLink name={contactLinks} />
   );
+
+  const menuButton = <li className="NavLink NavMenu">
+    <a><i class="material-icons-round">menu</i></a>
+  </li>;
+
   return (
-    <nav className="Nav">
+    <nav className="Nav section">
       <div className="container">
-      <ul className="NavLeft">
-        {contactItems}
-      </ul>
-      <ul className="NavRight">
-        {listItems}
-        <li className="NavLink NavMenu">
-          <a><i class="material-icons-round">menu</i></a>
-        </li>
-      </ul>
+        <div className="content">
+          <ul className="NavLeft">
+            {contactItems}
+          </ul>
+          <ul className="NavRight">
+            {listItems}
+            {menuButton}
+          </ul>
+        </div>
       </div>
     </nav>
   );

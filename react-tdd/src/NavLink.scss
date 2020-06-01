@@ -16,6 +16,7 @@
   font-size: 18px;
   margin: 10px;
   border-radius: 3px;
+
   // box-shadow: $dark-shadow;
 }
 
@@ -23,5 +24,6 @@
   transition-duration: $standard-transition-duration;
   background-color: $light-shades-trans;
   color: $light-shades;
+  cursor: pointer;
   // box-shadow: $light-shadow;
 }

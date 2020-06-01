@@ -5,5 +5,44 @@
 }
 
 .Nav ul {
-  padding-left: 40px;
+  // position: absolute;
+  line-height: 24px;
+}
+
+.NavRight {
+  text-align: right;
+}
+
+.container {
+  column-width: 420px;
+  width: 90%;
+	max-width: 1400px;
+	margin: 0px 50px auto;
+}
+
+.Nav i {
+  top: 5px;
+  position: relative;
+}
+
+.NavMenu {
+  display: none;
+}
+
+.material-icons-round {
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1100px) {
+  .NavLeft {
+    display: none;
+  }
+
+  .container {
+    column-width: auto;
+  }
+
+  .NavMenu {
+    display: inline-block;
+  }
 }

@@ -1,0 +1,14 @@
+@import 'styles/colors.scss';
+
+.Portfolio {
+  width: 100%;
+  column-count: 3;
+  margin-top: 20px;
+  column-gap: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+
+  @media screen and (max-width: 750px) {
+    column-count: 1;
+  }
+}

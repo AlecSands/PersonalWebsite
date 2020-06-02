@@ -17,8 +17,6 @@ import lifecycle from './images/Commercial_Lifecycle-Filter.png'
 import synergies from './images/Synergies-Highlight.png'
 
 function App() {
-  // const BioContent = "<p>test</p>";
-  const BioContent = <ContentContainer name='Bio' />;
 
   return (
     <div className="App">
@@ -26,7 +24,7 @@ function App() {
       <div className="bodyContainer">
         <div className="headerSpacer"></div>
         <Switch>
-          <Route exact path="/" component={ImageCard} />
+          <Route exact path="/" component={(props) => <ContentContainer {...props} name="Portfolio" />} />
           <Route path="/bio" render={(props) => <ContentContainer {...props} name="Bio" />} />
         </Switch>
 

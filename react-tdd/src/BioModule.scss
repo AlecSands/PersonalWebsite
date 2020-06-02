@@ -1,20 +1,5 @@
 @import "styles/colors.scss";
 
-// .BioModule {
-//   column-count: 4;
-//   padding-top: 40px;
-// }
-//
-// img.headshot {
-//   width: 100%;
-//   border-radius: 50%;
-//   box-shadow: $dark-shadow;
-// }
-//
-// .text {
-//
-// }
-
 .BioModule {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +24,7 @@ img.headshot {
   font-family: $main-font;
 
   h1 {
-    color: $dark-shades;
+    color: $light-shades;
     font-weight: 300;
     font-size: 24px;
     padding-bottom: 10px;
@@ -53,7 +38,7 @@ img.headshot {
   }
 
   p {
-    color: $dark-shades;
+    color: $light-shades;
     font-weight: 300;
   }
 

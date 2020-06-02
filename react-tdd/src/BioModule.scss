@@ -1,0 +1,70 @@
+@import "styles/colors.scss";
+
+// .BioModule {
+//   column-count: 4;
+//   padding-top: 40px;
+// }
+//
+// img.headshot {
+//   width: 100%;
+//   border-radius: 50%;
+//   box-shadow: $dark-shadow;
+// }
+//
+// .text {
+//
+// }
+
+.BioModule {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: -15px;
+
+  // background-color: $dark-accents;
+  border-radius: 5px;
+}
+
+img.headshot {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: $dark-shadow;
+  flex: 300px;
+  margin: auto;
+}
+
+.BioModule .text {
+  flex: 400px;
+  padding: 15px;
+  font-family: $main-font;
+
+  h1 {
+    color: $dark-shades;
+    font-weight: 300;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    color: $main-brand-color;
+    font-weight: 900;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    color: $dark-shades;
+    font-weight: 300;
+  }
+
+  .thin {
+    font-weight: 700;
+    color: $main-brand-color;
+  }
+}
+
+.BioModule .image {
+  padding: 15px;
+  margin: auto;
+}

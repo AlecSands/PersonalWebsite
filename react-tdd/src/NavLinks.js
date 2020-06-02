@@ -1,6 +1,6 @@
 const NavLinks = [
-  {"displayName": "Portfolio", "url": "/"},
-  {"displayName": "Bio", "url": "/bio"},
+  {"displayName": "Portfolio", "url": "#/"},
+  {"displayName": "Bio", "url": "#/bio"},
 ];
 
 export default NavLinks;

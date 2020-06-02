@@ -17,12 +17,19 @@ import lifecycle from './images/Commercial_Lifecycle-Filter.png'
 import synergies from './images/Synergies-Highlight.png'
 
 function App() {
+  // const BioContent = "<p>test</p>";
+  const BioContent = <ContentContainer name='Bio' />;
+
   return (
     <div className="App">
       <Header />
       <div className="bodyContainer">
         <div className="headerSpacer"></div>
-        <ContentContainer name="Bio"/>
+        <Switch>
+          <Route exact path="/" component={ImageCard} />
+          <Route path="/bio" render={(props) => <ContentContainer {...props} name="Bio" />} />
+        </Switch>
+
       </div>
       <Footer />
     </div>

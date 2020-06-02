@@ -10,11 +10,6 @@ html {
   background: $light-shades;
 }
 
-li {
-  display: inline;
-  // padding: 20px;
-}
-
 a {
   text-decoration: none;
 }
@@ -32,6 +27,18 @@ ul {
   .headerSpacer {
     height: 70px;
   }
+}
+
+@function contentMinHeight($base, $exponent) {
+  $result: 1;
+  @for $_ from 1 through $exponent {
+    $result: $result * $base;
+  }
+  @return $result;
+}
+
+.bodyContainer {
+  min-height: calc(100vh - 148px);
 }
 
 

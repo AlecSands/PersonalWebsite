@@ -11,6 +11,7 @@ import ImageCard from './ImageCard';
 import HeadingCard from './HeadingCard';
 import DescriptionCard from './DescriptionCard';
 import ContentContainer from './ContentContainer';
+import Footer from './Footer';
 
 import lifecycle from './images/Commercial_Lifecycle-Filter.png'
 import synergies from './images/Synergies-Highlight.png'
@@ -19,8 +20,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="headerSpacer"></div>
-      <ContentContainer name="Bio"/>
+      <div className="bodyContainer">
+        <div className="headerSpacer"></div>
+        <ContentContainer name="Bio"/>
+      </div>
+      <Footer />
     </div>
   );
 }

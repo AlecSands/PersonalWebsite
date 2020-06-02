@@ -18,7 +18,7 @@
 .BioModule {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 20px;
+  padding: 20px 0px;
   margin: -15px;
 
   // background-color: $dark-accents;
@@ -30,12 +30,11 @@ img.headshot {
   max-width: 250px;
   border-radius: 50%;
   box-shadow: $dark-shadow;
-  flex: 300px;
   margin: auto;
 }
 
 .BioModule .text {
-  flex: 400px;
+  flex: 430px;
   padding: 15px;
   font-family: $main-font;
 

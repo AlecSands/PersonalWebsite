@@ -31,9 +31,13 @@ nav {
   a:hover {
     color: $dark-shades;
   }
+
+  li {
+    display: inline;
+  }
 }
 
-.NavMenu {
+li.NavMenu {
   display: none;
 
   i {
@@ -43,7 +47,7 @@ nav {
 }
 
 @media screen and (max-width: 750px) {
-  .NavMenu {
+  li.NavMenu {
     display: inline;
   }
 

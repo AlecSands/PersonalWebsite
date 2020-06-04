@@ -5,16 +5,17 @@ import ProjectImage from './images/Synergies-Highlight.png';
 function ProjectCard(props) {
 
   return (
-    <div className="ProjectCard">
-      <img className="" src={props.imageName}/>
-      <div className="description">
-        <h3>Project Title</h3>
-        <p>
-          Developed website features using SASS, CSS, HTML, jQuery, d3.js, and C#
-          to deliver mobile responsive enhancements to support business needs.
-        </p>
+    <a href={props.project.url}>
+      <div className="ProjectCard">
+        <img className="" src={props.project.cardImage}/>
+        <div className="description">
+          <h3>{props.project.cardTitle}</h3>
+          <p>
+            {props.project.cardDescription}
+          </p>
+        </div>
       </div>
-    </div>
+    </a>
   )
 }
 

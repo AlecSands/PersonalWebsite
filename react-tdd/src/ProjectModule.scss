@@ -1,0 +1,66 @@
+@import 'styles/colors.scss';
+
+.ProjectModule {
+  width: 100%;
+  padding-top: 20px;
+
+  h1 {
+    color: $light-shades;
+    font-weight: 300;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    color: $main-brand-color;
+    font-weight: 900;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    color: $light-shades;
+    font-weight: 300;
+  }
+
+  .intro {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid $light-accents 1px;
+  }
+
+  .CardContainer {
+    column-count: 3;
+    column-gap: 30px;
+
+    @media screen and (max-width: 750px) {
+      column-count: 1;
+    }
+
+    .card {
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .cardImage {
+      width: 100%;
+
+      img {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: $dark-shadow;
+      }
+    }
+
+    .cardDesc {
+      // background-color: $light-shades;
+      border: $light-accents solid 1px;
+
+      p {
+        color: $light-shades;
+        line-height: 24px;
+        padding: 20px 15px;
+      }
+    }
+  }
+}

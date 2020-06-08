@@ -6,7 +6,7 @@ function BioModule () {
   return (
     <div className="BioModule">
       <div className="image">
-        <img className="headshot" src={HeadshotImage}/>
+        <img className="headshot" alt="headshot" src={HeadshotImage}/>
       </div>
       <div className="text">
         <h1>Alec Sands</h1>

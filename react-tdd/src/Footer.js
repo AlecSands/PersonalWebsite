@@ -8,11 +8,11 @@ import NavigationLinks from "./NavLinks"
 function Footer() {
   const navLinks = NavigationLinks;
   const listItems = navLinks.map((navLinks) =>
-    <NavLink name={navLinks} />
+    <NavLink name={navLinks} key={navLinks.displayName} />
   );
   const contactLinks = ContactLinks;
   const contactItems = contactLinks.map((contactLinks) =>
-    <NavLink name={contactLinks} />
+    <NavLink name={contactLinks} key={contactLinks.displayName} />
   );
 
   return (

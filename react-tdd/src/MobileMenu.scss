@@ -1,0 +1,24 @@
+@import 'styles/colors.scss';
+
+.mobileMenu {
+  position: fixed;
+  top: 70px;
+  right: 0px;
+  background-color: $light-shades;
+  display: none;
+  height: 100vh;
+  width: 80vw;
+  z-index: 1000;
+
+
+
+  @media screen and (max-width: 750px) {
+    display: block;
+
+
+  }
+}
+
+.mobileMenu.hidden {
+  right: -80vw;
+}

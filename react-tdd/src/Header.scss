@@ -1,13 +1,14 @@
 @import 'styles/colors.scss';
 
 nav {
-  position: fixed;
-  top: 0px;
-  z-index: 1000;
+
 }
 
 .Nav.section {
   width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
   background-color: $main-brand-color;
 }
 
@@ -31,6 +32,17 @@ nav {
 
   a:hover {
     color: $dark-shades;
+  }
+
+  button {
+    color: $light-shades;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+  }
+
+  button:focus {
+    outline: none;
   }
 
   li {

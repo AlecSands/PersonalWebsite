@@ -1,8 +1,4 @@
 import React from 'react';
-// import './App.scss';
-import {
-  Link
-} from "react-router-dom";
 import "./NavLink.scss"
 
 function NavLink(props) {

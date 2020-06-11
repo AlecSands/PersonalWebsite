@@ -12,6 +12,7 @@ function ProjectCard(props) {
           <p>
             {props.project.cardDescription}
           </p>
+          <p className="linkText">Learn More Here</p>
         </div>
       </div>
     </a>

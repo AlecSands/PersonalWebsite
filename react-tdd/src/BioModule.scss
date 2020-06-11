@@ -25,21 +25,36 @@ img.headshot {
 
   h1 {
     color: $light-shades;
-    font-weight: 300;
-    font-size: 24px;
-    padding-bottom: 10px;
+    font-weight: 100;
+    font-size: 42px;
+    padding-bottom: 20px;
+
+    @media screen and (max-width: 750px) {
+      font-size: 24px;
+      font-weight: 300;
+    }
   }
 
   h3 {
     color: $main-brand-color;
     font-weight: 900;
     font-size: 16px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   p {
     color: $light-shades;
     font-weight: 300;
+    padding-bottom: 20px;
+  }
+
+  a {
+    color: $light-accents;
+    font-weight: 500;
+  }
+
+  a:hover {
+    color: $main-brand-color;
   }
 
   .thin {

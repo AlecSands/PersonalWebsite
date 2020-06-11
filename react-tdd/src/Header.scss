@@ -26,16 +26,16 @@ nav {
 .Nav {
 
   a {
-    color: $light-shades;
+    color: $dark-shades;
     font-weight: 500;
   }
 
   a:hover {
-    color: $dark-shades;
+    color: $light-shades;
   }
 
   button {
-    color: $light-shades;
+    color: $dark-shades;
     font-weight: 500;
     background-color: transparent;
     border: none;

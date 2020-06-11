@@ -48,7 +48,7 @@ const Projects = [
       {"key": "ORTRonMap", "url": ORTRONMap, "format": "desktop"},
       {"key": "ORTCorpHomeMobile", "url": ORTHomepageMobile, "format": "mobile"},
       {"key": "ORTCorpResponsiveDesc", "text": "All features developed were responsive for mobile, tablet, desktop, and large format breakpoints", "format": "description"},
-      {"key": "ORTCorpRonFullPage", "url": ORTRONFullPage, "format": "fullPage"},
+      // {"key": "ORTCorpRonFullPage", "url": ORTRONFullPage, "format": "fullPage"},
       {"key": "ORTCorpStateTablet", "url": ORTStatePageTablet, "format": "tablet"},
     ]
   },

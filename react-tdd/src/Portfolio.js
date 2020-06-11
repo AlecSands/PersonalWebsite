@@ -11,7 +11,10 @@ function Portfolio() {
 
   return (
     <div className="Portfolio">
-      {portfolioItems}
+      <h1>Project Portfolio</h1>
+      <div className="ColumnLayout">
+        {portfolioItems}
+      </div>
     </div>
   )
 }

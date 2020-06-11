@@ -17,7 +17,8 @@ function App() {
         <div className="headerSpacer"></div>
         <Suspense fallback={<div>Loading...</div>}>
           <Switch>
-            <Route exact path="/" component={(props) => <ContentContainer {...props} name="Portfolio" />} />
+            <Route exact path="/" component={(props) => <ContentContainer {...props} name="Bio" />} />
+            <Route path="/portfolio" component={(props) => <ContentContainer {...props} name="Portfolio" />} />
             <Route path="/bio" render={(props) => <ContentContainer {...props} name="Bio" />} />
             <Route path="/ort-website" render={(props) => <ContentContainer {...props} name="Project" projectName="Old Republic Title - Corporate Website" />} />
             <Route path="/ort-ux-design" render={(props) => <ContentContainer {...props} name="Project" projectName="Old Republic Title - UX Design" />} />
